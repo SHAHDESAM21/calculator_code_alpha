@@ -1,0 +1,83 @@
+:root {
+  --font1: "Bellota", cursive;
+  --font2: "Great Vibes", cursive;
+  --font3: "Pacifico", cursive;
+  --font4: "Patrick Hand", cursive;
+}
+body {
+      margin: 0;
+      height: 100vh;
+      position: relative;
+        background-color: #dea5c5;
+    }
+
+nav p{
+    font-family: var(--font4);
+    color: #6a8899;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.calculator {
+  background-color: #6a8899;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      
+      transform: translate(-50%, -50%); /* لضبط العنصر في المنتصف */
+      text-align: center;
+}
+#display {
+  width: 100%;
+  height: 100px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #d7e161;
+  border: none;
+  border-radius: 5px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #ddd;
+}
+.operator {
+  background-color: #d7e161;
+  color: white;
+}
+.operator:hover {
+  background-color: #d7e161;
+}
+#equals {
+  background-color: #5bc0de;
+  color: white;
+}
+#equals:hover {
+  background-color: #31b0d5;
+}
+#clear {
+  background-color: #dea5c5;
+  color: white;
+}
+#clear:hover {
+  background-color: #31b0d5;
+}
+

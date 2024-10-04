@@ -1,2 +1,2 @@
-# calculator_code_alpha second_task
+# calculator_code_alpha
 my intern project
