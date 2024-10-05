@@ -15,5 +15,5 @@ Creating a calculator is an excellent way to practice front-end web development 
 - JavaScript: For implementing calculator logic and user interactions
 ## How to Use
 1. Clone the repository
-2. visit:url(https://shahdesam21.github.io/calculator_code_alpha/)
+2. visit:url(https://is.gd/2J4Akp)
 3. Start calculating!
